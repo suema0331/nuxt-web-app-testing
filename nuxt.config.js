@@ -60,7 +60,13 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: ['@nuxtjs/sitemap'],
+
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'http://localhost:3000/',
+    generate: true,
+  },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
