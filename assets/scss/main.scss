@@ -1,0 +1,82 @@
+@import './variable.scss';
+
+html {
+  max-width: 2000px;
+  margin: 0 auto;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+body,
+html {
+  font-style: normal;
+  font-weight: 400;
+  color: map-get($base, dark);
+  -webkit-text-size-adjust: 100%;
+}
+
+.v-application {
+  font-family:  "Roboto", sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial,
+      'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', YuGothic,
+      'Yu Gothic', 游ゴシック体, 游ゴシック, 'ヒラギノ角ゴ Pro W3',
+      'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka !important;
+}
+
+@media (min-width: 960px) {
+  .container {
+    max-width: none;
+  }
+}
+
+.v-application a {
+  color: map-get($accent, light);
+}
+
+.text-xxlg {
+  font-size: 2rem;
+}
+
+.text-xlg {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+.text-lg {
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+.text-md {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-bold {
+  font-weight: 900;
+}

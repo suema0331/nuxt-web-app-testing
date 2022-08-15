@@ -1,0 +1,31 @@
+$base: (
+  pale: #f4f4f4,
+  light: #d5d5d5,
+  main: #737373,
+  dark: #3f4243,
+);
+
+$accent: (
+  pale: #9fc9f2,
+  main: #bb6378,
+  light: #306a93,
+  dark: #3a6cb2,
+);
+
+$background: (
+  light: #f2f2f2,
+  main: #ffffff,
+  dark: #000000,
+);
+
+:export {
+  @each $key, $value in $base {
+    base_#{unquote($key)}: $value;
+  }
+  @each $key, $value in $accent {
+    accent_#{unquote($key)}: $value;
+  }
+  @each $key, $value in $background {
+    background_#{unquote($key)}: $value;
+  }
+}
