@@ -1,4 +1,5 @@
 import colors from 'vuetify/es5/util/colors'
+import axios from 'axios'
 
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
@@ -66,6 +67,10 @@ export default {
     path: '/sitemap.xml',
     hostname: 'http://localhost:3000/',
     generate: true,
+    // route: async () => {
+    //   const data = await axios.get(`${proces.env.API_BASE_URL}/v1/jobs`)
+    //   return data.map((post) => `/jobs/${post.slug}`
+    // }
   },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify

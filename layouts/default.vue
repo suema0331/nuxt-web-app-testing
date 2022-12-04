@@ -34,7 +34,7 @@ export default defineComponent({
         {
           icon: 'mdi-account-search',
           title: 'Job',
-          to: '/jobs',
+          to: '/job',
         },
         {
           icon: 'mdi-finance',
