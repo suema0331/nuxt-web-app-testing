@@ -1,69 +1,78 @@
 # nuxt-web-app
-This project is a demonstration using Nuxt2, CompositionAPI, and Typescript, with Vuetify as the UI framework for convenience. Nuxt-vite is used as the build tool.
-Styles are written in Scss, and global color codes are written centrally in assets/scss/variable.scss. Responsive is described in Mobile First.
-Code formatters are Prettier and Eslint.
-Jest is used for unit testing and Cypress for E2E testing.
 
+This project is a demonstration using `Nuxt2`, `CompositionAPI`, and `TypeScript`, with `Vuetify` as the UI framework for convenience. `Nuxt-vite` is used as the build tool.
+Styles are written in `SCSS`, and global color codes are placed centrally in `assets/scss/variable.scss`. I am using the "mobile first" approach in my styling.
+Code formatters are `Prettier` and `Eslint`.
+`Jest` is used for unit testing and `Cypress` for E2E testing.
 
 ## Build Setup
 
-```bash
-# install dependencies
-$ yarn install
+bash
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+### install dependencies
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+yarn install
 
-# generate static project
-$ yarn generate
+### serve with hot reload at localhost:3000
 
-# Unit test (Jest)
-$ yarn jest
+bash
+yarn dev
 
-# E2E test （Cypress）
-$ yarn e2e:silent
+### build for production and launch server
 
-```
+bash
+yarn build && yarn start
+
+### generate static project
+
+bash
+yarn generate
+
+### Unit test (Jest)
+
+bash
+yarn jest
+
+### E2E test （Cypress）
+
+bash
+yarn e2e:silent
 
 ## Special Directories
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+You can create the following extra directories, some of which have special behaviors. Only pages is required; you can delete them if you don't want to use their functionality.
 
-### `assets`
+### assets
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+The assets directory contains your uncompiled assets such as Stylus or SCSS files, images, or fonts.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
 
-### `components`
+### components
 
 The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
 
-### `layouts`
+### layouts
 
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
+Layouts are a great help when you want to change the look and feel of your `Nuxt app`, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
 
-### `pages`
+### pages
 
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
+This directory contains your application views and routes. Nuxt will read all the \*.vue files inside this directory and setup Vue Router automatically.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
 
-### `plugins`
+### plugins
 
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
+The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
 
-### `static`
+### static
 
 This directory contains your static files. Each file inside this directory is mapped to `/`.
 
@@ -71,8 +80,8 @@ Example: `/static/robots.txt` is mapped as `/robots.txt`.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
 
-### `store`
+### store
 
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
+This directory contains your Vuex store files. Creating a file in this directory automatically activates `Vuex`.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
