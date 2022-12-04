@@ -8,38 +8,32 @@ Code formatters are `Prettier` and `Eslint`.
 ## Build Setup
 
 ### install dependencies
-```
-bash
+```bash
 yarn install
 ```
 
 ### serve with hot reload at localhost:3000
-```
-bash
+```bash
 yarn dev
 ```
 
 ### build for production and launch server
-```
-bash
+```bash
 yarn build && yarn start
 ```
 
 ### generate static project
-```
-bash
+```bash
 yarn generate
 ```
 
 ### Unit test (Jest)
-```
-bash
+```bash
 yarn jest
 ```
 
 ### E2E test （Cypress）
-```
-bash
+```bash
 yarn e2e:silent
 ```
 
