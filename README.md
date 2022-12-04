@@ -1,4 +1,6 @@
 # nuxt-web-app
+This project uses Nuxt2, CompositionAPI, and typescript, with Vuetify as the UI framework for convenience. The styles are written in Scss. Nuxt-vite is used as the build tool. prettier and Eslint are used as code formatters. Global color codes are described centrally in assets/scss/variable.scss. Responsive is explained in Mobile First
+
 
 ## Build Setup
 
@@ -15,9 +17,14 @@ $ yarn start
 
 # generate static project
 $ yarn generate
-```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+# Unit test (Jest)
+$ yarn jest
+
+# E2E test （Cypress）
+$ yarn e2e:silent
+
+```
 
 ## Special Directories
 
