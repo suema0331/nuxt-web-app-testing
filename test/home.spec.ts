@@ -1,3 +1,4 @@
+import { expect } from '@jest/globals';
 import {
   createLocalVue,
   createWrappedComponent,
@@ -9,9 +10,6 @@ const localVue = createLocalVue()
 describe('Default', () => {
   it('should be the same as Title', () => {
     const wrapper = createWrappedComponent(HomePage, {
-      // propsData: { item },
-      // localVue,
-      // store,
       localVue,
       stubs: {
         NuxtLink: true,
