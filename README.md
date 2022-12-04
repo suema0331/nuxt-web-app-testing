@@ -6,12 +6,10 @@ Code formatters are `Prettier` and `Eslint`.
 `Jest` is used for unit testing and `Cypress` for E2E testing.
 
 ## Build Setup
-```
-bash
-```
 
 ### install dependencies
 ```
+bash
 yarn install
 ```
 
