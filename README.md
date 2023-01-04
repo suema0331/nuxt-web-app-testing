@@ -5,6 +5,9 @@ Styles are written in `SCSS`, and global color codes are placed centrally in `as
 Code formatters are `Prettier` and `Eslint`.
 `Jest` is used for unit testing and `Cypress` for E2E testing.
 
+## URL
+https://nuxt-web-app-testing.netlify.app/
+
 ## Build Setup
 
 ### install dependencies
