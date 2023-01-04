@@ -17,5 +17,5 @@
     },
     "types": ["@nuxt/types", "@types/node", "@types/jest", "cypress"]
   },
-  "exclude": ["node_modules", ".nuxt", "dist", "cypress"]
+  "exclude": ["node_modules", ".nuxt", "dist", "cypress", "test"]
 }
